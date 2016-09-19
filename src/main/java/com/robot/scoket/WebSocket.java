@@ -12,7 +12,12 @@ import javax.websocket.server.ServerEndpoint;
 import org.springframework.stereotype.Component;
 
 import com.robot.service.CarRunService;
-
+/**
+ * 
+ *@author panlunyou
+ *@date 2016年9月19日下午4:39:40
+ *@version 1.0
+ */
 @ServerEndpoint("/websocket")
 @Component
 public class WebSocket {
@@ -20,7 +25,7 @@ public class WebSocket {
 	    private static int onlineCount = 0;
 	    private static CopyOnWriteArraySet<WebSocket> webSocketSet = new CopyOnWriteArraySet<>();
 	    private Session session;
-	    static com.robot.service.CarRunService carRunService=null;  //new com.robot.service.CarRunService(11,12,13,14);
+	    static com.robot.service.CarRunService carRunService=null; 
 
 	    @OnOpen
 	    public void onOpen (Session session){
