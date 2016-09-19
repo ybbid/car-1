@@ -10,7 +10,7 @@ import com.pi4j.io.gpio.PinState;
 import com.pi4j.io.gpio.RaspiPin;
 
 /**
- * 
+ * 这个是一个可以在树莓派上面直接执行的类 java StartCar
  * @author panlunyou
  * @date 2016年9月9日下午4:01:36
  * @version 1.0
