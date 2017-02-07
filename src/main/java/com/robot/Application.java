@@ -14,7 +14,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
  * @author panlunyou
  * @version 1.0
  * @date 2016-06-15
- * 
+ * ttt
  * @update 集成部署 支持war发布形式    @author panlunyou @date 2016-06-22
  */
 
@@ -27,7 +27,7 @@ public class Application/* extends SpringBootServletInitializer*/ {
 
 	public static void main(String[] args) {
 		SpringApplication.run(Application.class, args);
-		
+		   
 	}
 	
 	
